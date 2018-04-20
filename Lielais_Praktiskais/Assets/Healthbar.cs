@@ -10,6 +10,7 @@ public class Healthbar : MonoBehaviour
     public Text RatioText;
     private float hitpoints = 150;
     private float maxHitpoints = 150;
+    public DeathMenu deathMenu;
 
 
 
@@ -28,8 +29,10 @@ public class Healthbar : MonoBehaviour
         hitpoints -= damage;
         if (hitpoints <0)
         {
+            Application.LoadLevel("death");
             hitpoints = 0;
             Debug.Log(" dead!");
+          
         }
 
         UpdateHealthbar();

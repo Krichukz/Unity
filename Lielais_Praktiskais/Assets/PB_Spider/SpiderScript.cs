@@ -91,7 +91,8 @@ public class SpiderScript : MonoBehaviour
             anim.SetBool("isAttacking", false);
             anim.SetBool("isAlert", false);
             anim.SetBool("isIdle", true);
-            StartCoroutine(RandomMovement());
+      
+
         }
     }
 

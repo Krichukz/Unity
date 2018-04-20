@@ -6,7 +6,7 @@ public class CoinScript : MonoBehaviour
 {
     public AudioClip collectSound;
     float rotationsPerMinute = 10;
-
+    public VictoryMenu victoryMenu;
 
 
     void Start()
@@ -29,6 +29,10 @@ public class CoinScript : MonoBehaviour
                 CoinCount.coinCount++;
                 AudioSource.PlayClipAtPoint(collectSound, transform.position);
                 DestroyObject(this.gameObject);
+            if (CoinCount.coinCount == 2)
+            {
+                Application.LoadLevel("victory");
+            }
 
 
 

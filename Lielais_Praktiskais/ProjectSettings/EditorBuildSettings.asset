@@ -8,3 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Visas Scenes/Jauna_Update.unity
+    guid: 6a482087a1c9dc94c9e333ae04858ff1
+  - enabled: 1
+    path: Assets/Visas Scenes/death.unity
+    guid: 1debaa9769e18084e911579f21c6e22a
+  - enabled: 1
+    path: Assets/Visas Scenes/victory.unity
+    guid: 98cf874ac7026874ea04428dc7410c1e
